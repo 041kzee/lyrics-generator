@@ -90,5 +90,33 @@ int main() {
     s1.addLine("THATS WHAT MAKES YOU BEAUTIFUL <3",1);
     s1.addDetails("One Direction", "September 11 2011","Savan Kotecha" , "Up All Night","Teen Pop");
     s1.play();
+
+       cout << "\n\n"; 
+
+    Song s2("Perfect");
+    s2.addLine("I found a love for me", 2);
+    s2.addLine("Darling just dive right in and follow my lead", 3);
+    s2.addLine("Well I found a girl, beautiful and sweet", 2);
+    s2.addLine("I never knew you were the someone waiting for me", 3);
+
+    s2.addLine("Cause we were just kids when we fell in love", 2);
+    s2.addLine("Not knowing what it was", 1);
+    s2.addLine("I will not give you up this time", 2);
+    s2.addLine("Darling just kiss me slow, your heart is all I own", 3);
+    s2.addLine("And in your eyes you're holding mine", 2);
+
+    s2.addLine("Baby, I'm dancing in the dark", 2);
+    s2.addLine("With you between my arms", 2);
+    s2.addLine("Barefoot on the grass", 1);
+    s2.addLine("Listening to our favorite song", 2);
+    s2.addLine("When you said you looked a mess", 2);
+    s2.addLine("I whispered underneath my breath", 1);
+    s2.addLine("But you heard it, darling", 1);
+    s2.addLine("You look perfect tonight", 3);
+
+    s2.addDetails("Ed Sheeran", "March 3 2017", "Ed Sheeran", "÷ (Divide)", "Pop");
+    s2.play();
+
+
     return 0;
 }
